@@ -54,3 +54,20 @@ button:active{
 .operator-btn:active{
     background-color: hsl(35, 100%, 75%);
 }
+
+@media (max-width: 600px) {
+    #display {
+        font-size: 2rem;
+        padding: 15px;
+    }
+
+    button {
+        width: 80px; /* Adjust button size slightly for smaller screens */
+        height: 80px;
+        font-size: 2.5rem;
+    }
+
+    #keys {
+        gap: 8px;
+    }
+}
